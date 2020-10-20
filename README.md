@@ -1,13 +1,13 @@
 # Dastr
 
-$ (mkdir Build)
+$ mkdir Build
 
-cd Build
+$ cd Build
 
-cmake ..
+$ cmake ..
 
-make
+$ make
 
-make test
+$ make test
 
-./Source/dastr
+$ ./Source/dastr
