@@ -2,20 +2,9 @@
 
 ```sh
 mkdir Build
-```
-
-```sh
-$ cd Build
-```
-```sh
-$ cmake ..
-```
-```sh
-$ make
-```
-```sh
-$ make test
-```
-```sh
-$ ./Source/dastr
+cd Build
+cmake ..
+make
+make test
+./Source/dastr
 ```
