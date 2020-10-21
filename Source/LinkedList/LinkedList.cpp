@@ -17,10 +17,10 @@ void LinkedList::Print(Node** head)
 
 void LinkedList::Append(Node** head, int data)
 {
-   Node* temp = new Node(); 
+   Node* temp = new Node();
    temp->data = data;
    temp->next = nullptr;
-   
+
    if (!*head)
       *head = temp;
    else {
@@ -35,7 +35,7 @@ void LinkedList::Append(Node** head, int data)
 int LinkedList::Pop(Node** head)
 {
    int temp;
-   
+
    if (*head)
    {
       Node* walk = *head;
@@ -146,7 +146,7 @@ void LinkedList::Reverse(Node** head)
 {
    Node* current = *head;
    Node* prev = nullptr;
-   Node* next = nullptr;  
+   Node* next = nullptr;
 
    while (current)
    {
@@ -170,7 +170,7 @@ void LinkedList::Insert(Node** head, unsigned int index, int data)
       *head = temp;
       return;
    }
-   
+
    if (*head)
    {
       Node* temp = new Node();
@@ -189,8 +189,8 @@ void LinkedList::Insert(Node** head, unsigned int index, int data)
          }
          i++;
          walk = walk->next;
-      }  
-   }  
+      }
+   }
 }
 
 
